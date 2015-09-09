@@ -24,3 +24,4 @@ emanage --clean OR 192.168.1.10
 ```
 For a list of the available colours, issue `emanage --help`.
 Nozzles are cleaned in groups. For example, cleaning orange (OR) will also clean green (GR).
+The printer appears to recheck the nozzles after cleaning. The updated nozzle check response is reported.
