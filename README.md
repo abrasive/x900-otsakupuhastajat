@@ -11,7 +11,7 @@ Checking Nozzles
 ----------------
 You need to know the hostname or IP address of your printer. For example, if your printer is at 192.168.1.10, issue:
 ```
-emanage --check 192.168.1.10
+emanage.py --check 192.168.1.10
 ```
 
 A nozzle check will be performed. If any nozzles are found to be clogged, a message will be printed and the code 100 returned. A successful check returns 0.
@@ -20,8 +20,8 @@ Cleaning Nozzles
 ----------------
 If blocked nozzles are found, they can be cleaned using the script. For example, to clean the orange nozzles, issue:
 ```
-emanage --clean OR 192.168.1.10
+emanage.py --clean OR 192.168.1.10
 ```
-For a list of the available colours, issue `emanage --help`.
+For a list of the available colours, issue `emanage.py --help`.
 Nozzles are cleaned in groups. For example, cleaning orange (OR) will also clean green (GR).
 The printer appears to recheck the nozzles after cleaning. The updated nozzle check response is reported.
