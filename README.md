@@ -5,6 +5,8 @@ emanage is a tool for performing maintenance of 11-cartridge Epson Stylus Pro pr
 It permits nozzles to be checked and cleaned over the network from any machine.
 The intention is to reduce the incidence of severe clogging and print head failures during intermittent use; by scheduling automated checks the printer can be exercised regularly, and any resulting problems can be addressed remotely.
 
+This is not guaranteed to work with your printer. This may damage your printer. This may erase all of your favourite memories. Use this tool at your own risk.
+
 Checking Nozzles
 ----------------
 You need to know the hostname or IP address of your printer. For example, if your printer is at 192.168.1.10, issue:
